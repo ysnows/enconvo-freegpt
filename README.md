@@ -1,14 +1,13 @@
-### Enconvo插件-微软TTS(免秘钥)
+### Enconvo插件-ChatGpt[免费]
 
 
 ##### 使用方法
 
 
-![img.png](assets/img.png)
 
 ##### 安装
 
-Enconvo插件商店中找到 微软TTS(开源版)，点击安装即可。
+Enconvo插件商店中找到 ChatGpt[免费]，点击安装即可。
 
 
 
@@ -20,4 +19,4 @@ Enconvo插件商店中找到 微软TTS(开源版)，点击安装即可。
 
 ##### 站在巨人的肩膀上
 
-参考： https://github.com/akl7777777/bob-plugin-akl-caiyunxiaoyi-free-translate
+参考：https://github.com/akl7777777/bob-plugin-akl-chatgpt-free-translate
