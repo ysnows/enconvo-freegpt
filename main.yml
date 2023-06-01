@@ -1,0 +1,48 @@
+name: "ChatGPT3.5 \u514D\u8D39\u7248"
+version: 0.0.1
+author: ysnows
+on: {}
+steps:
+- name: ''
+  uses: javascript
+  env:
+    JSFilePath:
+      type: file-path
+      value: main.js
+      sort: 0
+      messages: []
+extensionId: ysnows.freegpt
+logo: ns:translate
+description: "ChatGPT3.5 \u514D\u8D39\u7248"
+async: false
+homePage: https://github.com/ysnows/enconvo-freegpt
+appCast: https://raw.githubusercontent.com/ysnows/enconvo-freegpt/main/appcast.json
+minAppVersion: 1.2.1
+flowType: llmEngine
+options:
+- title: Model Settings
+  items:
+  - identifier: stream
+    type: toggle
+    title: Stream output
+    defaultValue: 'false'
+    menuValues: []
+    desc: ''
+    placeholderText: ''
+    textWidth: 2e+2
+    disable: true
+  - identifier: route
+    type: menu
+    title: "\u7EBF\u8DEF"
+    defaultValue: aHR0cHM6Ly93d3cubm90YWcuY24vYXBpL2dlbmVyYXRl=
+    menuValues:
+    - title: "\u56FD\u5185"
+      value: aHR0cHM6Ly93d3cubm90YWcuY24vYXBpL2dlbmVyYXRl=
+    - title: "\u56FD\u5916"
+      value: aHR0cHM6Ly9hbXdhbm5hLmJ1enovYXBpL2dlbmVyYXRl
+    desc: "\u5207\u6362zh_CN\u8BED\u97F3\u89D2\u8272"
+    placeholderText: ''
+    textWidth: 2e+2
+    disable: false
+  desc: ''
+sort: 10
