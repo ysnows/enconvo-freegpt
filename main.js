@@ -6,7 +6,7 @@ function main(text, contextText, completion, streamHandler) {
         // 如果是中文则翻译成英文，否则翻译成中文
         try {
             try {
-                let chatResult = await free.translate(contextText.value)
+                let chatResult = await free.translate(contextText.value.messages)
                 console.log(chatResult)
                 // streamHandler({
                 //     result: {

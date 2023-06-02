@@ -6,7 +6,7 @@ async function translate(messages) {
         let A = messages;
         // 如果是翻译模式,需要拼接
         const L = Date.now();
-        let url = random_safe($option.route);
+        let url = random_safe($option.model);
         const resp = await fetch(
             url,
             {
