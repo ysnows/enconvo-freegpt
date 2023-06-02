@@ -31,7 +31,7 @@ options:
     placeholderText: ''
     textWidth: 2e+2
     disable: true
-  - identifier: route
+  - identifier: model
     type: menu
     title: "\u7EBF\u8DEF"
     defaultValue: aHR0cHM6Ly93d3cubm90YWcuY24vYXBpL2dlbmVyYXRl=
