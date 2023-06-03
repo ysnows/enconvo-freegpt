@@ -7,7 +7,7 @@ async function translate(messages) {
         // 如果是翻译模式,需要拼接
         const L = Date.now();
         let url = random_safe($option.model);
-        const resp = await fetch(
+        const resp = await $http.request(
             url,
             {
                 method: "POST",
