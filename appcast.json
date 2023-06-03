@@ -2,6 +2,12 @@
   "identifier": "ysnows.freegpt",
   "versions": [
     {
+      "version": "0.0.5",
+      "desc": "feat: 1. 0.0.5",
+      "url": "https://github.com/ysnows/enconvo-freegpt/releases/download/v0.0.5/enconvo-freegpt.enconvoplugin",
+      "minAppVersion": "1.1.8"
+    },
+    {
       "version": "0.0.4",
       "desc": "feat: 1. optimize",
       "url": "https://github.com/ysnows/enconvo-freegpt/releases/download/v0.0.4/enconvo-freegpt.enconvoplugin",
